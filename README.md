@@ -8,7 +8,7 @@ This is the repo for buildin a simple web-cam facemask detector using the YOLOv5
 Chosen detection object: **Mask**
 
 # Specifications
-- For demo purposes, this applicaiton will mount the device(0) webcam and run from there. 
+- For demo purposes, this application will mount the device(0) webcam
 - The src uses the YOLOv5M model trained on 100epochs. In the data folder, there are three other models that can be chosen. YOLOV5m was selected based on mAP0.5 performance metric
 - Larger models were not used (such as the YOLOv5l) due to slow run time with streaming data
 
