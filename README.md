@@ -4,7 +4,7 @@ Date: 16 Mar, 2023
 
 This is the repo for buildin a simple web-cam facemask detector
 
-Chosen detection object: Mask
+Chosen detection object: **Mask**
 
 ## Function Specifications
 1. Provide a simple system for Web Based Video Live Streaming with AI Object Detection Function
@@ -16,3 +16,19 @@ Chosen detection object: Mask
 7. Do consider augmentation on the training subject, we will evaluate the model performance in real-world usage sense.
 
 # Run specifications
+For demo purposes, this applicaiton will mount the device(0) webcam and run from there. 
+
+## Option 1 - Install and run source code via pip install requirements.txt
+Clone repo and install requirements.txt in a Python>=3.8.0 environment, including PyTorch>=1.7. This code was developed in Python==3.9 environment.
+
+'''
+git clone https://github.com/jethrocsau/facemask-detector # clone
+pip install -r requirements.txt  # install
+cd src
+python main.py
+'''
+
+## Option 2 - install the pyinstaller executable 
+
+1. Install the executable this link here
+2. Run "webcam" 
