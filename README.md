@@ -18,6 +18,7 @@ Clone repo and install requirements.txt in a Python>=3.8.0 environment, includin
 
 ```
 git clone https://github.com/jethrocsau/facemask-detector # clone
+pip install pip --upgrade #update pip
 pip install -r requirements.txt  # install
 cd src
 python main.py
