@@ -2,7 +2,6 @@
 # import packages
 from flask import Flask, render_template, Response, request
 from camera import VideoCamera
-from matplotlib import pyplot as plt
 import numpy as np
 import cv2
 import webbrowser
