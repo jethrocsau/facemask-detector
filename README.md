@@ -24,8 +24,9 @@ python main.py
 
 ## Option 2 - install the pyinstaller executable 
 
-1. Install the executable this link here
-2. Run "webcam" 
+1. Install the executable this link here (https://drive.google.com/file/d/1JjTpa9CG9B9NCvZT_ha8fedTRvtit3xE/view?usp=sharing)
+2. Open "main" folder
+3. Run "main" file
 
 # Reference Specifications
 1. Provide a simple system for Web Based Video Live Streaming with AI Object Detection Function
