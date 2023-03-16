@@ -11,6 +11,7 @@ Chosen detection object: **Mask**
 - For demo purposes, this application will mount the device(0) webcam
 - The src uses the YOLOv5M model trained on 100epochs. In the data folder, there are three other models that can be chosen. YOLOV5m was selected based on mAP0.5 performance metric
 - Larger models were not used (such as the YOLOv5l) due to slow run time with streaming data
+- it will connect to port:3000, please make sure there are no other applications using this port or else you will not be able to connect.
 
 ## Option 1 - Install and run source code via pip install requirements.txt
 Clone repo and install requirements.txt in a Python>=3.8.0 environment, including PyTorch>=1.7. This code was developed in Python==3.9 environment.
