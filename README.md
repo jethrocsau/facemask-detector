@@ -1,5 +1,6 @@
 # facemask-detector
 Author: Jethro Au
+
 Date: 16 Mar, 2023
 
 This is the repo for buildin a simple web-cam facemask detector
@@ -21,12 +22,12 @@ For demo purposes, this applicaiton will mount the device(0) webcam and run from
 ## Option 1 - Install and run source code via pip install requirements.txt
 Clone repo and install requirements.txt in a Python>=3.8.0 environment, including PyTorch>=1.7. This code was developed in Python==3.9 environment.
 
-'''
+```
 git clone https://github.com/jethrocsau/facemask-detector # clone
 pip install -r requirements.txt  # install
 cd src
 python main.py
-'''
+```
 
 ## Option 2 - install the pyinstaller executable 
 
