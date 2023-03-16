@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Mask Detection Server</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: sans-serif;
+			margin: 100px;
+			padding: 0;
+		}
+		h1 {
+			color: #555;
+			margin: 20px;
+			text-align: center;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 20px;
+		}
+		.video {
+			background-color: #ffffff;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+			margin: 10px;
+			overflow: hidden;
+			position: relative;
+		}
+		.video iframe {
+			border: none;
+			height: 110%;
+			left: 0;
+			position: center;
+			top: 0;
+			width: 110%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Mask Detection Server</h1>
+  <body>
+    1. Provide a simple system for Web Based Video Live Streaming with AI Object Detection Function <br>
+    2. Client will be any modern web browser like Chrome <br>
+    3. Server connects to IP Cam or Web Cam, serve a simple webpage through HTTP to display the video frames on Client browser <br>
+    4. Train a model using YOLO (any version) to perform object-detection over the video frames captures <br>
+    5. Server utilizes the YOLO model onto video frames, allow frames to be annotated with the designated object detection. <br>
+    6. You will propose the designated object to be detected, one object is sufficient. It can be things like common objects in daily life, company logos, trademarks, or signs, but not limited to these. <br>
+    7. Do consider augmentation on the training subject (Mask), we will evaluate the model performance in real-world usage sense. <br>
+  </body>
+	<div class="container">
+		<div class="video">
+			<img id="bg" src="{{ url_for('video_feed') }}">
+		</div>
+	</div>
+</body>
+</html>
